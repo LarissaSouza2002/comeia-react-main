@@ -1,0 +1,65 @@
+form div input, textarea{
+    width: 100%;
+}
+
+div label, input{
+    text-transform: uppercase;
+} 
+
+form {
+    background-color: rgb(201, 193, 193);
+    color: black;
+    padding: 20px; 
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+    margin: 66px auto;
+    border:solid #b99d37;
+    margin-bottom: 120px;
+}
+
+fieldset{
+    border: none;
+}
+
+form div{
+    border: 0;
+}
+
+.form-control{
+    position: relative;
+}
+textarea:focus, input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input{
+    height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+    width: 97%;
+}
+
+#username, #email, #telefone{
+    width: 98%;
+}
+
+textarea{
+    resize: none;
+    align-self: center;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 

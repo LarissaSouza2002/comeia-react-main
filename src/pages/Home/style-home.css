@@ -1,0 +1,43 @@
+
+.section{
+    width: 100%;
+    height: 100%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex: 9;
+    margin-bottom: 25px;
+}
+
+.info-card{
+    background-color: rgb(205, 201, 201);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;   
+    line-height: 20px;
+    
+}
+
+#resumo{
+    font-size: 25px;
+}
+
+div p{
+    font-size: 20px;
+}
+
+#academica{
+    font-size: 25px;
+}
+
+.itens{
+    font-size: 20px;
+}
+
+#profissional{
+    font-size: 25px;
+}

@@ -1,0 +1,37 @@
+{
+    "Resumo": "Olá eu me chamo Fátima Cruz, moro em Caruaru e tenho 50 anos de idade. Trabalho na área de Perícia Técnica em especialidade: Papiloscopia, Investigação de Usucapião e Grafotêcnica Perícia Judicial. Extremamente motivada em constante desenvolvimento de minhas habilidades e crescimento profissional!",
+    "Acadêmica": [
+    {
+        "titulo": "Gestao Ambiental",
+        "dataInicio": 2018,
+        "dataFim": 2022
+    },
+    {
+        "titulo": "Gestao Ambiental",
+        "dataInicio": 2018,
+        "dataFim": 2022
+    },
+    {
+        "titulo": "Gestao Ambiental",
+        "dataInicio": 2018,
+        "dataFim": 2022
+    }
+],
+    "Profissional":[
+        {
+            "titulo": "Perícia Técnica",
+            "dataInicio": 2023,
+            "dataFim": 2023
+        },
+        {
+            "titulo": "Perícia Técnica",
+            "dataInicio": 2023,
+            "dataFim": 2023
+        },
+        {
+            "titulo": "Perícia Técnica",
+            "dataInicio": 2023,
+            "dataFim": 2023
+        }
+    ]
+}
