@@ -25,8 +25,8 @@ function App() {
                 cargo: informacao.data.cargo
             });
 
-                                                                 //filtragem
-                                                      //parametro + atributo + condicao
+                                                            //filtragem
+                                                    //parametro + atributo + condicao
             const experienciaAcademica = await api.get(`/experiencias?tipo=academico`);
             const experienciaProfissional = await api.get(`/experiencias?tipo=profissional`);
 

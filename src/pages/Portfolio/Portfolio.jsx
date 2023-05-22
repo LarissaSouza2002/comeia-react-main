@@ -1,28 +1,25 @@
 import React from "react";
 import "./style-portfolio.css"
+import ItemPortfolio from "../ItemPortfolio/ItemPortfolio";
 // import date from "./Portfolio.json"
 
 
-function Portfolio() {
+function Portfolio({portfolio}) {
     return (
         <>
         <main>
-            <div class="container">
+            {/* <div class="container"> */}
 
-                {date.Portfolio.map((item, index) => (
-                    <div key = {index} className="info-portfolio">
-                        <a href= {item.link} target="_blank">
-                            <img id="image" src={item.image}></img>
-                        </a>
-                        <p id="information">
-                            {item.title}
-                        </p>
-
-                    </div>
-
-                ))}
+                {portfolio.map((item, index) => 
+                <ItemPortfolio
+                    key = {index} 
+                    link = {item.index} 
+                    image = {item.image} 
+                    descricao = {item.descricao} 
+            ></ItemPortfolio>
+                )}
                 
-            </div>
+            {/* </div> */}
         </main>
         </>
     )

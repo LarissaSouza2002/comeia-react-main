@@ -1,5 +1,5 @@
 import React from "react";
-import foto from '../../assets/img/foto.png';
+// import foto from '../../assets/img/foto.png';
 import "./style-header.css";
 import { Link } from "react-router-dom";
 
